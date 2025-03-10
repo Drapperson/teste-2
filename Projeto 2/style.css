@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "Figtree";
+    src: url("Figtree-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "Figtree-medium";
+    src: url("Figtree-Medium.ttf");
+}
+@font-face {
+    font-family: "Figtree-italic";
+    src: url("Figtree-Italic-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "Figtree-variable";
+    src: url("Figtree-VariableFont_wght.ttf");
+}
+body {
+    background: hsl(47, 88%, 63%);
+    margin: 10dvb auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.corpo {
+    background-color: hsl(0, 0%, 100%);
+    width: 330px;
+    height: auto;
+    padding: 3dvb;
+    border-radius: 15px;
+    box-shadow: 10px 10px 0px  black;
+    border-color: black;
+    border: 1px solid ;
+}
+.tema{
+    margin-top: 20px;
+   
+    background: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    font-size: 15px;
+    display: inline-block;
+    
+}
+.tema p{
+    margin: 8px;
+    
+}
+.data{
+    font-size: 15px;
+}
+h6 {
+    margin: 0%;
+    font-weight: 900;
+}
+.texto{
+    font-size: 18px;
+    margin: 8px 0px;
+    padding-right: 10px;
+    
+    color: hsl(0, 0%, 42%)
+}
+.perfil img {
+    width: 34px; 
+    height: auto;
+    padding-right: 15px;
+}
+img {
+    width: 100%; 
+    height: auto;
+    display: block;
+    border-radius: 5%;
+}
+.perfil{
+    
+    align-items: center;
+    display: flex;
+    font-family: Figtree-medium;
+}
